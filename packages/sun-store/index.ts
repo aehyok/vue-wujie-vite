@@ -6,8 +6,7 @@ const pubStore = new PubStore("app");
 const Pub = pubStore.defineStore<any>("testStore",(set, get) => ({
   bears: 0,
   add() {
-    set((state) => ({ bears: state.bears + 1 }));
-  
+    set((state: any) => ({ bears: state.bears + 1 }));
   },
   clear(){
     set({ bears: 0 })
