@@ -20,9 +20,6 @@ importers:
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.3.3)(vue@3.4.20)
-      sun-zustand-vue:
-        specifier: 1.0.0-beta.21
-        version: 1.0.0-beta.21(vue@3.4.20)(zustand@4.5.1)
       turbo:
         specifier: ^1.12.4
         version: 1.12.4
@@ -38,6 +35,9 @@ importers:
       vue-router:
         specifier: ^4.3.0
         version: 4.3.0(vue@3.4.20)
+      zustand-vue:
+        specifier: 1.0.0-beta.21
+        version: 1.0.0-beta.21(vue@3.4.20)(zustand@4.5.1)
 
   apps/dvs-basic:
     dependencies:
@@ -878,17 +878,6 @@ packages:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
 
-  /sun-zustand-vue@1.0.0-beta.21(vue@3.4.20)(zustand@4.5.1):
-    resolution: {integrity: sha512-ub1vVm1tqCtc8+Hqo04q2TKn5djgQuxqtmI6hi3fzcxTVJZ5TDi8L7oZGcraiX7Ib1EFSidP24FeX5n53/dnkQ==}
-    peerDependencies:
-      vue: '>=2.6.0'
-      zustand: '>=4.1.4'
-    dependencies:
-      rollup: 4.12.0
-      vue: 3.4.20(typescript@5.3.3)
-      zustand: 4.5.1(react@18.2.0)
-    dev: false
-
   /to-fast-properties@2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
@@ -1136,6 +1125,16 @@ packages:
 
   /zustand-vue@1.0.0-beta.20(vue@3.4.20)(zustand@4.5.1):
     resolution: {integrity: sha512-4lKOGVxFNnSpisO9czhv+RHGTIsVKSLh/Ub63i7A2jaebDQ5MrmBcXrHG094SiIsw4PGF2AEfI9LG9tpVxqj4A==}
+    peerDependencies:
+      vue: '>=2.6.0'
+      zustand: '>=4.1.4'
+    dependencies:
+      vue: 3.4.20(typescript@5.3.3)
+      zustand: 4.5.1(react@18.2.0)
+    dev: false
+
+  /zustand-vue@1.0.0-beta.21(vue@3.4.20)(zustand@4.5.1):
+    resolution: {integrity: sha512-TI4O67YAbkJE4nRxtoQI7NZzE4hfYDoY+YRtwoz5BnJEo8kjJax22r/vMt9lNiyq05VAAurp0fzhEWI1Nw8BmQ==}
     peerDependencies:
       vue: '>=2.6.0'
       zustand: '>=4.1.4'

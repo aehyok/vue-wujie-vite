@@ -4,6 +4,6 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue';
-const viteUrl1 = ref("//localhost:1110/");
-const viteUrl2 = ref("//localhost:120/");
+const viteUrl1 = ref("//localhost:6100/");
+const viteUrl2 = ref("//localhost:6200/");
 </script>

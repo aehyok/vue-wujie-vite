@@ -1,4 +1,4 @@
-import create from "sun-zustand-vue"
+import create from "zustand-vue"
 import PubStore from "zustand-pub";
 
 const pubStore = new PubStore("app");
