@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20.11.24",
+    "path": "^0.12.7",
     "pinia": "^2.1.7",
     "sun-zustand-vue": "1.0.0-beta.21",
     "turbo": "^1.12.4",
