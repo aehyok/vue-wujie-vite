@@ -29,7 +29,7 @@ export default defineConfig({
   },
 
   server: {
-    port: 6000,
+    port: 100,
     host: '0.0.0.0', // 可查看到局域网IP地址
     cors: true, // 默认启用并允许任何源
     // open: true, // 在服务器启动时自动在浏览器中打开应用程序
