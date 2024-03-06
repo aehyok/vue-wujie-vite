@@ -1,6 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
-    "start": {}
+    "start": {
+      "cache": true
+    },
+    "build": {
+      "cache": true
+    }
   }
 }
